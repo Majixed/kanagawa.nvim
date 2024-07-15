@@ -12,6 +12,8 @@
   <h2 align="center"><img alt="Preview" src="https://user-images.githubusercontent.com/36300441/222913073-22b95f11-8c08-4b2b-867c-19072c921de1.png" width=1000></h2>
 </p>
 
+[![W3C](https://img.shields.io/badge/WCAG_2.1_|_AA-756891?logo=w3c&logoColor=fff&style=for-the-badge)](https://www.w3.org/TR/WCAG21/#contrast-minimum)
+
 ## Features
 
 - Extensive support for `TreeSitter` syntax highlighting, and _many_ popular plugins
@@ -345,6 +347,10 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 
 </details>
 
+## Accessibility
+
+The colors maintain a `4.5:1` contrast ratio, complying with [WCAG 2.1 | Level AA](https://www.w3.org/TR/WCAG21/#contrast-minimum).  
+
 ## Extras
 
 - [alacritty](extras/alacritty_kanagawa.yml)
@@ -363,6 +369,7 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 - [Windows Terminal](extras/windows_terminal.json)
 - [Windows Terminal Theme](extras/windows_terminal_theme.json)
 - [Xresources](extras/.Xresources)
+- [tmTheme (bat, delta and lazygit)](extras/kanagawa.tmTheme)
 - [JSON compatible with many terminals](extras/Kanagawa.json) Check [Gogh](https://github.com/Gogh-Co/Gogh#-terminals) for the list of supported terminals.
 - 🎉 Bonus! You win a tiny [python script](palette.py)🐍 to extract color palettes 🎨 from any image! 🥳
 

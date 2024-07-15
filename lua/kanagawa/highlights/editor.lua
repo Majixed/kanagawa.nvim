@@ -89,6 +89,14 @@ function M.setup(colors, config)
         Pmenu = { fg = theme.ui.pmenu.fg, bg = theme.ui.pmenu.bg },
         -- PmenuSel	Popup menu: Selected item.
         PmenuSel = { fg = theme.ui.pmenu.fg_sel, bg = theme.ui.pmenu.bg_sel },
+        -- PmenuKind	Popup menu: Normal item "kind".
+        PmenuKind = { fg = theme.ui.fg_dim, bg = theme.ui.pmenu.bg },
+        -- PmenuKindSel	Popup menu: Selected item "kind".
+        PmenuKindSel = { fg = theme.ui.fg_dim, bg = theme.ui.pmenu.bg_sel },
+        -- PmenuExtra	Popup menu: Normal item "extra text".
+        PmenuExtra = { fg = theme.ui.special, bg = theme.ui.pmenu.bg },
+        -- PmenuExtraSel	Popup menu: Selected item "extra text".
+        PmenuExtraSel = { fg = theme.ui.special, bg = theme.ui.pmenu.bg_sel },
         -- PmenuSbar	Popup menu: Scrollbar.
         PmenuSbar = { bg = theme.ui.pmenu.bg_sbar },
         -- PmenuThumb	Popup menu: Thumb of the scrollbar.
@@ -152,6 +160,12 @@ function M.setup(colors, config)
         DiagnosticInfo = { fg = theme.diag.info },
         DiagnosticHint = { fg = theme.diag.hint },
         DiagnosticOk = { fg = theme.diag.ok },
+
+        DiagnosticFloatingError = { fg = theme.diag.error },
+        DiagnosticFloatingWarn = { fg = theme.diag.warning },
+        DiagnosticFloatingInfo = { fg = theme.diag.info },
+        DiagnosticFloatingHint = { fg = theme.diag.hint },
+        DiagnosticFloatingOk = { fg = theme.diag.ok },
 
         DiagnosticSignError = { fg = theme.diag.error, bg = theme.ui.bg_gutter },
         DiagnosticSignWarn = { fg = theme.diag.warning, bg = theme.ui.bg_gutter },
